@@ -1,0 +1,32 @@
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --branco: #fff ; 
+    --preto: #000 ; 
+    --amarelo: #FFCA2E;
+    --laranja: #F4A226;
+    --verde:  #98D9A9;
+    --azul: #AED6F1;
+}
+
+body{
+    background-color: var(--fundo-site);
+}
+ /* HEARER */
+ header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 165px;
+    background-color: aqua;
+ }
+
+ .container-flex{
+    width: 85%;
+    max-width: 1440px;
+    margin:  0 auto ;
+ }
